@@ -1,0 +1,119 @@
+body {
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-around;  
+  width: 1200px;
+  margin-left: calc(50% - 600px);
+  font-family: 'Poppins', sans-serif;
+   gap: 50px;
+}
+.title {
+    text-transform: uppercase;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+.description {
+    font-size: 13px;
+   
+}
+.container {
+    width: 200px;
+    position: relative;
+}
+
+.number-one {
+    display: flex;
+    margin: 0;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    border:solid rgb(81, 195, 205) 5px;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(81, 195, 205) ;
+}
+.rocket {
+    height: 160px;
+    width: 160px;
+   padding: 20px;
+    background-color: rgb(81, 195, 205);
+}
+
+.number-two {
+    display: flex;
+    margin: 0;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    border:solid rgb(58, 110, 193) 5px;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(58, 110, 193) ;
+}
+.head {
+    height:140px ;
+   width: 140px;
+   padding: 30px;
+    background-color: rgb(58, 110, 193)
+}
+
+.people {
+    height: 140px;
+    width: 140px;
+    padding: 30px;
+    background-color: rgb(243, 77, 51);
+}
+.number-three {
+    display: flex;
+    margin: 0;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    border:solid rgb(243, 77, 51) 5px;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(243, 77, 51);
+}
+
+.deploy {
+    height: 140px;
+    width: 140px;
+    padding: 30px;
+    background-color: rgb(145, 145, 145);
+}
+.number-four {
+    display: flex;
+    margin: 0;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+    border:solid rgb(145, 145, 145) 5px;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(145, 145, 145); 
+}
